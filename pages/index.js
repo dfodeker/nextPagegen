@@ -28,7 +28,7 @@ export default function Home() {
             <p>Find in-depth information about the build process of this app</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://spinning-walrus-vacuum.wayscript.cloud" className={styles.card}>
             <h2>Alt &rarr;</h2>
             <p>An alternate version of this app written in flask and python</p>
           </a>
