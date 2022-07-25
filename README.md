@@ -1,5 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to Page gen
+This readme serves as documentation for the  Custom Shopify app that creates a page in a Shopify store. 
+It works by calling the Shopify `Creates a page` endpoint, the update page api.
+The python version of this app can be found at https://github.com/dfodeker/PageGen
 
+Further information can be found at [Create page Shopify api](https://shopify.dev/api/admin-rest/2022-07/resources/page).
+
+There are two versions of this app 
+* A version of the app built with `Python and Flask` 
+* A version of the app built with `Next.js`
+
+The next.js version does not have the functionality to check it a page exists and can only create pages
+The Python & Flask version takes it further by adding extra functionality: checking if a page already exists and updating it with the appropriate content. 
 ## Getting Started
 
 First, run the development server:
@@ -20,15 +31,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about this project, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-https://github.com/dfodeker/PageGen
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
