@@ -30,8 +30,8 @@ const Test =  () => {
 export async function getServerSideProps({ req, res }) {
     const data = {"page":
         {
-            "title":"My Page information",
-            "body_html":"Hello"
+            "title":"Derek Fodeke Rodgers",
+            "body_html":"<h1>This page was created by using the pagegen application<h1>"
         }
     }
     try {
